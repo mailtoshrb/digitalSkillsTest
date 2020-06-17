@@ -1,20 +1,6 @@
 package env;
-
-import java.util.concurrent.TimeUnit;
-
-import org.openqa.selenium.By;
-import org.openqa.selenium.NoSuchSessionException;
-import org.openqa.selenium.SessionNotCreatedException;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.firefox.FirefoxOptions;
-import org.openqa.selenium.remote.DesiredCapabilities;
-import org.openqa.selenium.remote.ErrorHandler;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
+
 
 public class DriverUtil {
     public static long DEFAULT_WAIT = 20;
@@ -32,7 +18,7 @@ public class DriverUtil {
 
 
 
-    public static WebDriver getDefaultDriver() {
+   /* public static WebDriver getDefaultDriver() {
         if (driver != null) {
             return driver;
         }
@@ -49,13 +35,13 @@ public class DriverUtil {
         return driver;
     }
 
-    /**
+    *//**
      * By default to web driver will be PhantomJS
      *
      * Override it by passing -DWebDriver=Chrome to the command line arguments
      * @param capabilities
      * @return
-     */
+     *//*
     private static WebDriver chooseDriver(DesiredCapabilities capabilities) {
         String preferredDriver = System.getProperty("browser", "Firefox");
         boolean headless = System.getProperty("Headless", "true").equals("true");
@@ -106,5 +92,5 @@ public class DriverUtil {
             } catch (SessionNotCreatedException snce) {} // in case close fails
             driver = null;
         }
-    }
+    }*/
 }

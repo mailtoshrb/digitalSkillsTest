@@ -63,7 +63,6 @@ public class UserStepDefinitions {
     @Then("^I navigate to \"([^\"]*)\" website$")
     public void navigate_to(String link) {
         DriverUtil.getDriver().get(link);
-        System.out.println("Stop");
     }
 
 
@@ -84,11 +83,11 @@ public class UserStepDefinitions {
             }
 
             DriverUtil.getDriver().navigate().back();
-            try {
+          /*  try {
                 Thread.sleep(2000);
             } catch (InterruptedException e) {
                 e.printStackTrace();
-            }
+            }*/
         });
 
         System.out.println(actualRegistrationResults);
