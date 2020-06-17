@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="5" failures="2" name="stepDefintions.RunCukeTest" time="0.004" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.241-b07"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/bandlas/IdeaProjects/digitalSkillsTest"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/bandlas/IdeaProjects/digitalSkillsTest"/>
+    <property name="java.runtime.version" value="1.8.0_241-b07"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/h4/dkmjxnh127x7w5wljv37fnmc0000gn/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/usr/local/Cellar/maven/3.6.3_1/libexec/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/bandlas/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="maven.conf" value="/usr/local/Cellar/maven/3.6.3_1/libexec/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.15.5"/>
+    <property name="library.jansi.path" value="/usr/local/Cellar/maven/3.6.3_1/libexec/lib/jansi-native"/>
+    <property name="http.nonProxyHosts" value="local, 169.254/16|*.local, 169.254/16"/>
+    <property name="user.home" value="/Users/bandlas"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="bandlas"/>
+    <property name="java.class.path" value="/usr/local/Cellar/maven/3.6.3_1/libexec/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher verify"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_241"/>
+    <property name="java.ext.dirs" value="/Users/bandlas/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/usr/local/Cellar/maven/3.6.3_1/libexec"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local, 169.254/16|*.local, 169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local, 169.254/16|*.local, 169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase classname="Scenario: Browse Free Car tax Check website" name="Given I have registration numbers from a file" time="0.001"/>
+  <testcase classname="Scenario: Browse Free Car tax Check website" name="And I navigate to &quot;https://cartaxcheck.co.uk/&quot; website" time="0"/>
+  <testcase classname="Scenario: Browse Free Car tax Check website" name="When I check registration numbers" time="0"/>
+  <testcase classname="Scenario: Browse Free Car tax Check website" name="Then Vehicle identity results are as expected" time="0.001">
+    <failure message="
+Expecting ArrayList:
+ &lt;[{&quot;Registration&quot;:&quot;DN09HRM&quot;,&quot;Make&quot;:&quot;BMW&quot;,&quot;Colour&quot;:&quot;Black&quot;,&quot;Year&quot;:2009},
+    {&quot;Registration&quot;:&quot;KT17DLX&quot;,&quot;Make&quot;:&quot;Skoda&quot;,&quot;Colour&quot;:&quot;White&quot;,&quot;Year&quot;:2017},
+    {&quot;Registration&quot;:&quot;SG18HTN&quot;,&quot;Make&quot;:&quot;Volkswagen&quot;,&quot;Colour&quot;:&quot;White&quot;,&quot;Year&quot;:2018}]&gt;
+to contain:
+ &lt;[{&quot;Registration&quot;:&quot;SG18HTN&quot;,&quot;Make&quot;:&quot;Volkswagen&quot;,&quot;Colour&quot;:&quot;White&quot;,&quot;Year&quot;:2018},
+    {&quot;Registration&quot;:&quot;DN09HRM&quot;,&quot;Make&quot;:&quot;BMW&quot;,&quot;Colour&quot;:&quot;Black&quot;,&quot;Year&quot;:2009},
+    {&quot;Registration&quot;:&quot;BW57BOF&quot;,&quot;Make&quot;:&quot;Toyota&quot;,&quot;Colour&quot;:&quot;Black&quot;,&quot;Year&quot;:2010},
+    {&quot;Registration&quot;:&quot;KT17DLX&quot;,&quot;Make&quot;:&quot;Skoda&quot;,&quot;Colour&quot;:&quot;White&quot;,&quot;Year&quot;:2017}]&gt;
+but could not find the following element(s):
+ &lt;[{&quot;Registration&quot;:&quot;BW57BOF&quot;,&quot;Make&quot;:&quot;Toyota&quot;,&quot;Colour&quot;:&quot;Black&quot;,&quot;Year&quot;:2010}]&gt;
+" type="java.lang.AssertionError">java.lang.AssertionError: 
+Expecting ArrayList:
+ &lt;[{&quot;Registration&quot;:&quot;DN09HRM&quot;,&quot;Make&quot;:&quot;BMW&quot;,&quot;Colour&quot;:&quot;Black&quot;,&quot;Year&quot;:2009},
+    {&quot;Registration&quot;:&quot;KT17DLX&quot;,&quot;Make&quot;:&quot;Skoda&quot;,&quot;Colour&quot;:&quot;White&quot;,&quot;Year&quot;:2017},
+    {&quot;Registration&quot;:&quot;SG18HTN&quot;,&quot;Make&quot;:&quot;Volkswagen&quot;,&quot;Colour&quot;:&quot;White&quot;,&quot;Year&quot;:2018}]&gt;
+to contain:
+ &lt;[{&quot;Registration&quot;:&quot;SG18HTN&quot;,&quot;Make&quot;:&quot;Volkswagen&quot;,&quot;Colour&quot;:&quot;White&quot;,&quot;Year&quot;:2018},
+    {&quot;Registration&quot;:&quot;DN09HRM&quot;,&quot;Make&quot;:&quot;BMW&quot;,&quot;Colour&quot;:&quot;Black&quot;,&quot;Year&quot;:2009},
+    {&quot;Registration&quot;:&quot;BW57BOF&quot;,&quot;Make&quot;:&quot;Toyota&quot;,&quot;Colour&quot;:&quot;Black&quot;,&quot;Year&quot;:2010},
+    {&quot;Registration&quot;:&quot;KT17DLX&quot;,&quot;Make&quot;:&quot;Skoda&quot;,&quot;Colour&quot;:&quot;White&quot;,&quot;Year&quot;:2017}]&gt;
+but could not find the following element(s):
+ &lt;[{&quot;Registration&quot;:&quot;BW57BOF&quot;,&quot;Make&quot;:&quot;Toyota&quot;,&quot;Colour&quot;:&quot;Black&quot;,&quot;Year&quot;:2010}]&gt;
+
+	at stepDefintions.UserStepDefinitions.iMatchTheNumberWithFile(UserStepDefinitions.java:112)
+	at ✽.Then Vehicle identity results are as expected(features/freeCarCheck.feature:7)
+</failure>
+  </testcase>
+  <testcase classname="Scenario: Browse Free Car tax Check website" name="Scenario: Browse Free Car tax Check website" time="0.002">
+    <failure message="
+Expecting ArrayList:
+ &lt;[{&quot;Registration&quot;:&quot;DN09HRM&quot;,&quot;Make&quot;:&quot;BMW&quot;,&quot;Colour&quot;:&quot;Black&quot;,&quot;Year&quot;:2009},
+    {&quot;Registration&quot;:&quot;KT17DLX&quot;,&quot;Make&quot;:&quot;Skoda&quot;,&quot;Colour&quot;:&quot;White&quot;,&quot;Year&quot;:2017},
+    {&quot;Registration&quot;:&quot;SG18HTN&quot;,&quot;Make&quot;:&quot;Volkswagen&quot;,&quot;Colour&quot;:&quot;White&quot;,&quot;Year&quot;:2018}]&gt;
+to contain:
+ &lt;[{&quot;Registration&quot;:&quot;SG18HTN&quot;,&quot;Make&quot;:&quot;Volkswagen&quot;,&quot;Colour&quot;:&quot;White&quot;,&quot;Year&quot;:2018},
+    {&quot;Registration&quot;:&quot;DN09HRM&quot;,&quot;Make&quot;:&quot;BMW&quot;,&quot;Colour&quot;:&quot;Black&quot;,&quot;Year&quot;:2009},
+    {&quot;Registration&quot;:&quot;BW57BOF&quot;,&quot;Make&quot;:&quot;Toyota&quot;,&quot;Colour&quot;:&quot;Black&quot;,&quot;Year&quot;:2010},
+    {&quot;Registration&quot;:&quot;KT17DLX&quot;,&quot;Make&quot;:&quot;Skoda&quot;,&quot;Colour&quot;:&quot;White&quot;,&quot;Year&quot;:2017}]&gt;
+but could not find the following element(s):
+ &lt;[{&quot;Registration&quot;:&quot;BW57BOF&quot;,&quot;Make&quot;:&quot;Toyota&quot;,&quot;Colour&quot;:&quot;Black&quot;,&quot;Year&quot;:2010}]&gt;
+" type="java.lang.AssertionError">java.lang.AssertionError: 
+Expecting ArrayList:
+ &lt;[{&quot;Registration&quot;:&quot;DN09HRM&quot;,&quot;Make&quot;:&quot;BMW&quot;,&quot;Colour&quot;:&quot;Black&quot;,&quot;Year&quot;:2009},
+    {&quot;Registration&quot;:&quot;KT17DLX&quot;,&quot;Make&quot;:&quot;Skoda&quot;,&quot;Colour&quot;:&quot;White&quot;,&quot;Year&quot;:2017},
+    {&quot;Registration&quot;:&quot;SG18HTN&quot;,&quot;Make&quot;:&quot;Volkswagen&quot;,&quot;Colour&quot;:&quot;White&quot;,&quot;Year&quot;:2018}]&gt;
+to contain:
+ &lt;[{&quot;Registration&quot;:&quot;SG18HTN&quot;,&quot;Make&quot;:&quot;Volkswagen&quot;,&quot;Colour&quot;:&quot;White&quot;,&quot;Year&quot;:2018},
+    {&quot;Registration&quot;:&quot;DN09HRM&quot;,&quot;Make&quot;:&quot;BMW&quot;,&quot;Colour&quot;:&quot;Black&quot;,&quot;Year&quot;:2009},
+    {&quot;Registration&quot;:&quot;BW57BOF&quot;,&quot;Make&quot;:&quot;Toyota&quot;,&quot;Colour&quot;:&quot;Black&quot;,&quot;Year&quot;:2010},
+    {&quot;Registration&quot;:&quot;KT17DLX&quot;,&quot;Make&quot;:&quot;Skoda&quot;,&quot;Colour&quot;:&quot;White&quot;,&quot;Year&quot;:2017}]&gt;
+but could not find the following element(s):
+ &lt;[{&quot;Registration&quot;:&quot;BW57BOF&quot;,&quot;Make&quot;:&quot;Toyota&quot;,&quot;Colour&quot;:&quot;Black&quot;,&quot;Year&quot;:2010}]&gt;
+
+	at stepDefintions.UserStepDefinitions.iMatchTheNumberWithFile(UserStepDefinitions.java:112)
+	at ✽.Then Vehicle identity results are as expected(features/freeCarCheck.feature:7)
+</failure>
+  </testcase>
+</testsuite>

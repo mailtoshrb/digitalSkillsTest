@@ -1,0 +1,7 @@
+stepDefintions/UserStepDefinitions.class
+stepDefintions/Hooks.class
+pages/CarTaxCheckResultPage.class
+pages/CarTaxCheckHomePage.class
+state/World.class
+data/VehicleIdentity.class
+stepDefintions/RunCukeTest.class
