@@ -1,0 +1,12 @@
+<component name="ProjectCodeStyleConfiguration">
+  <code_scheme name="Project" version="173">
+    <ScalaCodeStyleSettings>
+      <option name="alwaysUsedImports">
+        <array>
+          <option value="io.gatling.core.Predef._" />
+          <option value="io.gatling.http.Predef._" />
+        </array>
+      </option>
+    </ScalaCodeStyleSettings>
+  </code_scheme>
+</component>

@@ -1,0 +1,5 @@
+REGISTRATION,MAKE,MODEL,COLOR,YEAR
+SG18HTN,Volkswagen,Golf Se Navigation Tsi Evo,White,2018
+DN09HRM,BMW,320D Se,Black,2009
+BW57BOF,Toyota,Yaris T2,Black,2010
+KT17DLX,Skoda,Superb Sportline Tdi S-A,White,2017
